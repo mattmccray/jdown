@@ -30,11 +30,6 @@
     "test:coverage": "tsc && nyc ava --reporter=text-lcov > coverage.lcov && codecov",
     "build": "tsc"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && npm test"
-    }
-  },
   "ava": {
     "files": [
       "dist/__tests__/*.test.js"

@@ -1,4 +1,4 @@
-import { Options } from './types/options';
+import {Options} from './types/options';
 /**
  * Transform a directory of markdown files to JSON.
  *
@@ -8,7 +8,10 @@ import { Options } from './types/options';
  * @example jdown('path/to/content').then(content => console.log(content));
  *
  */
-declare const jdown: (dir: string, options?: Options) => Promise<{
-    [index: string]: any;
+declare const jdown: (
+  dir: string,
+  options?: Options
+) => Promise<{
+  [index: string]: any;
 }>;
 export = jdown;

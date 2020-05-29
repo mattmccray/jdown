@@ -1,4 +1,4 @@
 interface Files {
-    [index: string]: any;
+  [index: string]: any;
 }
 export default Files;
